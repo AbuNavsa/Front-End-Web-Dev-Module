@@ -182,6 +182,8 @@ body {
   }
 
   #aboutUsSec-container {
+    display: flex;
+    justify-content: space-between;
     width: 60%;
     margin: auto;
     font-family: "Century Gothic";
@@ -189,28 +191,35 @@ body {
   }
 
   #aboutUsSec-container h2 {
-    font-size: 4.25rem;
+    font-size: 4vw;
     margin-bottom: 5%;
     line-height: 4.2rem;
   }
 
   #aboutUsSec-container p {
-    width: 45%;
+    width: 100%;
     text-align: justify;
-    font-size: 1.4rem;
-    margin-bottom: 6%;
+    font-size: 1.3vw;
+    margin-top: 12%;
+    margin-bottom: 12%;
+  }
+
+  #aboutUs-pSec {
+    left: 0;
+    width: 45%;
   }
 
   #aboutUsBtn a {
+    display: inline-block;
     text-decoration: none;
     border: solid;
     border-color: #0b0d10;
     border-width: 3px;
     white-space: nowrap;
     text-align: center;
-    font-size: 1.4rem;
-    padding: 1% 2%;
-    width: 25%;
+    font-size: 1.4vw;
+    padding: 2% 0;
+    width: 50%;
     text-decoration: none;
     /* Transition */
     color: #0b0d10;
@@ -221,9 +230,15 @@ body {
   }
 
     #aboutUsBtn a:hover {
-
-
       background-position: left bottom;
       color: white;
       cursor: pointer;
+    }
+
+    #laptop-img {
+      transform: translate(0, 27.5%);
+      width: 45%;
+      height: 45%;
+
+
     }
