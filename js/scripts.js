@@ -20,7 +20,7 @@ function typeWriter() {
       }
     }, 250);
 
-//Button Appear Effect ----------
+//Nav Bar Colour Change Past navScrollPoint
 
 
 

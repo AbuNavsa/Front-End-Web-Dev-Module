@@ -34,10 +34,10 @@ body {
 
   }
 
-  nav {
+
+  #nav {
     position: fixed;
     width: 100%;
-    background-color: red;
     background-color: rgba(11, 13, 16, 0);
     height: 8.5vw;
     z-index: 999;
@@ -173,9 +173,9 @@ body {
 
   #aboutUsSec {
     position: relative;
-    height: 75vh;
+    height: 67vh;
     width: 100%;
-    min-height: 75vh;
+    min-height: 67vh;
     background-color: white;
     overflow: hidden;
 
@@ -241,6 +241,21 @@ body {
       height: 47%;
     }
 
+    #servicesSec {
+      height: 33vh;
+      background-color: white;
 
+    }
 
+    #servicesSec-container {
+      width: 60%;
+      margin: 0 auto;
+      padding: 2% 0;
+      text-align: center;
+    }
+
+    #servicesSec h3 {
+      margin: 0;
+      font-family: "Century Gothic";
+      font-size: 1.65vw;
     }
