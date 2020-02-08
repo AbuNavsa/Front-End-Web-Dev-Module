@@ -131,6 +131,8 @@ body {
   #ask-us-btn:hover {
     background-position: left bottom;
     color: #0b0d10;
+    cursor: pointer;
+    
   }
   #ask-us-btn a {
     text-decoration: none;
