@@ -68,11 +68,27 @@ body {
     background-color: rgba(11, 13, 16, 0);
     text-decoration: none;
     color: white;
+    /* transition */
+    border: solid;
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 2px;
+  }
+
+  nav div div a:hover {
+    border-color: white;
+    transition: all 0.5s ease;
 
   }
 
   #nav-contact {
     color: #fffb05;
+    border: solid;
+    border-color: rgba(255, 251, 5, 0);
+    border-width: 2px;
+  }
+
+  #nav-contact:hover {
+    border-color: rgba(255, 251, 5, 1);
   }
 
   #abn-nav {
@@ -95,11 +111,11 @@ body {
 
 
   #cover h1 {
-    font-size: 6vw;
+    font-size: 6rem;
     color: white;
     font-family: "Century Gothic";
     position: absolute;
-    top: 12vw;
+    top: 11vw;
     padding-left: 20%;
     margin-bottom: 0;
     line-height: 1em;
@@ -113,7 +129,7 @@ body {
 
   #ask-us-btn {
     position: relative;
-    top: 33vw;
+    top: 66vh;
     display: inline;
     font-size: 1.65vw;
     border: solid;
@@ -152,3 +168,62 @@ body {
     padding-left: 1.5%;
     margin-bottom: 0.1%;
   }
+
+  /*About Us Section----------------*/
+
+  #aboutUsSec {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    overflow: hidden;
+
+  }
+
+  #aboutUsSec-container {
+    width: 60%;
+    margin: auto;
+    font-family: "Century Gothic";
+    color: #0b0d10;
+  }
+
+  #aboutUsSec-container h2 {
+    font-size: 4.25rem;
+    margin-bottom: 5%;
+    line-height: 4.2rem;
+  }
+
+  #aboutUsSec-container p {
+    width: 45%;
+    text-align: justify;
+    font-size: 1.4rem;
+    margin-bottom: 6%;
+  }
+
+  #aboutUsBtn a {
+    text-decoration: none;
+    border: solid;
+    border-color: #0b0d10;
+    border-width: 3px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1% 2%;
+    width: 25%;
+    text-decoration: none;
+    /* Transition */
+    color: #0b0d10;
+    background: linear-gradient(to right, rgba(11, 13, 6, 1) 50%, rgba(11, 13, 6, 0) 50%);
+    background-size: 205% 105%;
+    background-position: right bottom;
+    transition: all 0.5s ease;
+  }
+
+    #aboutUsBtn a:hover {
+
+
+      background-position: left bottom;
+      color: white;
+      cursor: pointer;
+    }
