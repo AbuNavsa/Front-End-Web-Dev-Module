@@ -217,7 +217,7 @@ body {
   }
 
   #aboutUsSec-container h2 {
-    font-size: 4vw;
+    font-size: 4.3em;
     margin-bottom: 5%;
     line-height: 100%;
   }
@@ -225,14 +225,16 @@ body {
   #aboutUsSec-container p {
     width: 100%;
     text-align: justify;
-    font-size: 1.3vw;
-    margin-top: 12%;
+    font-size: 1.4em;
+    margin-top: 10%;
     margin-bottom: 12%;
   }
 
   #aboutUs-pSec {
     left: 0;
     width: 45%;
+    min-width: 400px;
+
   }
 
   #aboutUsBtn a {
@@ -243,9 +245,8 @@ body {
     border-width: 3px;
     white-space: nowrap;
     text-align: center;
-    font-size: 1.4vw;
-    padding: 2% 0;
-    width: 50%;
+    font-size: 1.4em;
+    padding: 2% 7%;
     text-decoration: none;
     /* Transition */
     color: #0b0d10;
@@ -262,19 +263,23 @@ body {
     }
 
     #laptop-img {
-      transform: translate(0, 27.5%);
-      width: 47%;
-      height: 47%;
+      position: relative;
+      display: inline-block;
+      top: 7vmax;
+      right: 0;
+      width: 45%;
+      height: 35%;
       animation-duration: 3s;
       animation-iteration-count: infinite;
-      margin-top: 10%;
       opacity: 100%;
       transition: all ease 0.5s;
+      min-width: 400px;
+      margin-left: 5%;
     }
 
     #laptop-img:hover {
-      width: 50%;
-      height: 50%;
+      width: 48%;
+      height: 37%;
       opacity: 85%;
 
     }
@@ -289,8 +294,10 @@ body {
       100% { transform: translateY(0); }
 }
 
+/*Services----------------*/
+
     #servicesSec {
-      height: 33vh;
+      height: auto;
       background-color: white;
 
     }
@@ -304,6 +311,76 @@ body {
 
     #servicesSec h3 {
       margin: 0;
+      margin-bottom: 3%;
       font-family: "Century Gothic";
-      font-size: 1.65vw;
+      font-size: 1.8em;
+    }
+
+    #fourSContainer {
+      position: relative;
+      width: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+/*    #fourSContainer div {
+      width: 24%;
+      height: 24vmin;
+      background-color: rgba(11, 13, 16);
+      overflow:hidden;
+
+    }
+
+    #fourSContainer a {
+      font-size: 1.3vw;
+      font-weight: bold;
+      font-family: "Century Gothic";
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      position: relative;
+
+    }
+
+
+    #brandID-img {
+      background: url("https://www.fujifilm.com/products/digital_cameras/x/fujifilm_x_pro2/sample_images/img/index/ff_x_pro2_001.JPG");
+      background-size: 200%;
+      background-repeat: no-repeat;
+      opacity: 20%;
+    }  */
+
+    /*Client Logo Section----------------*/
+
+    #clientLogoSec {
+      width: 100%;
+      background-color: #fffb05;
+    }
+
+    #clientLogoSec div {
+      margin: auto;
+      width: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4vh;
+    }
+
+    #ajlogo {
+     height: 4vw;
+    }
+
+    #esqlogo {
+      height: 3vw;
+    }
+
+    #tubologo {
+      height: 4.5vw;
+
+    }
+
+    #ktchnlogo {
+      height: 2.8vw;
     }
