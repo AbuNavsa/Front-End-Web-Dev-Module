@@ -6,9 +6,9 @@ document.body.onload = function() {
 
 //Typing effect ---------
 
-var i = 0;
-var coverTxt = "Untamed";
-var coverSpeed = 1;
+let i = 0;
+let coverTxt = "Untamed";
+let coverSpeed = 1;
 
 function typeWriter() {
   setTimeout(function(){
