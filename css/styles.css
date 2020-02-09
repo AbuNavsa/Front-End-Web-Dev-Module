@@ -173,9 +173,7 @@ body {
 
   #aboutUsSec {
     position: relative;
-    height: 67vh;
     width: 100%;
-    min-height: 67vh;
     background-color: white;
     overflow: hidden;
 
@@ -193,7 +191,7 @@ body {
   #aboutUsSec-container h2 {
     font-size: 4vw;
     margin-bottom: 5%;
-    line-height: 4.2rem;
+    line-height: 100%;
   }
 
   #aboutUsSec-container p {
@@ -239,7 +237,26 @@ body {
       transform: translate(0, 27.5%);
       width: 47%;
       height: 47%;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      margin-top: 10%;
+      transition: all ease 0.5s;
     }
+
+    #laptop-img:hover {
+      width: 50%;
+      height: 50%;
+    }
+
+    .bounce1 {
+    animation-name: bounce1;
+    animation-timing-function: ease-in-out;
+}
+  @keyframes bounce1 {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-10%); }
+      100% { transform: translateY(0); }
+}
 
     #servicesSec {
       height: 33vh;
