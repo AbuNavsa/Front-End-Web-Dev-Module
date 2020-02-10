@@ -204,7 +204,7 @@ body {
     width: 100%;
     background-color: white;
     overflow: hidden;
-
+    padding-bottom: 3%;
   }
 
   #aboutUsSec-container {
@@ -281,7 +281,6 @@ body {
       width: 48%;
       height: 37%;
       opacity: 85%;
-
     }
 
     .bounce1 {
@@ -299,13 +298,12 @@ body {
     #servicesSec {
       height: auto;
       background-color: white;
-
     }
 
     #servicesSec-container {
       width: 60%;
       margin: 0 auto;
-      padding: 2% 0;
+      padding: 1% 0;
       text-align: center;
     }
 
