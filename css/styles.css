@@ -335,6 +335,7 @@ body {
       border-width: 10px;
       border-color: #fffb05;
       margin: 2% 0;
+      cursor: pointer;
     }
 
     .serviceBox img {
@@ -566,4 +567,13 @@ body {
     background-color: #fffb05;
     border: none;
     color: #0b0d10;
+    cursor: pointer;
+    transition: all ease 0.35s;
   }
+
+    #formSubmit:hover {
+      background-color: rgba(255, 251, 5, 0);
+      color: #fffb05;
+      box-shadow:inset 0px 0px 0px 3px #fffb05;
+
+    }
