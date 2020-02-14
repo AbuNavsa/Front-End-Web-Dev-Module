@@ -577,3 +577,36 @@ body {
       box-shadow:inset 0px 0px 0px 3px #fffb05;
 
     }
+
+
+
+/*Footer section----------------------*/
+
+    footer {
+      width: 100%;
+      margin: 0 auto;
+s    }
+
+    #footerContainer {
+      width: 60%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.4%;
+    }
+
+    #footerDetails {
+      width: 54%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.15em;
+      font-weight: normal;
+      font-family: "Century Gothic";
+      color: white;
+      align-items: center;
+    }
+
+    .footerSocial {
+      width: 4.5vh;
+    }
