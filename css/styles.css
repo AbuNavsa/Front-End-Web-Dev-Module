@@ -13,11 +13,11 @@ body {
 #nav {
   position: fixed;
   width: 100%;
-  height: 100%;
-  z-index: 999;
+  height: auto;
+  z-index: 998;
   top: 0;
   transition: all ease 0.4s;
-  background-color: rgba(11, 13, 16, 0.8);
+  background-color: rgba(11, 13, 16, 0.9);
 }
 
 .navScroll {
@@ -28,46 +28,77 @@ body {
 
 #nav-container {
   width: 100%;
+  height: auto;
   margin: 0 auto;
   transition: all ease 0.4s;
+  background-color: rgba(11, 13, 16, 0.9);
+}
+
+#hbg-menu {
+  width: 4.75rem;
+  height: 4.75rem;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  z-index: 999;
+
+
+}
+
+.hbg-line {
+  width: 45%;
+  margin: 0.4rem auto;
+  height: 2.5px;
+  background-color: rgba(255,255,255, 0.9);
+  position: relative;
+  transform: translateY(-50%);
+  top: 25%;
+  display: block;
 }
 
 .nav-logo {
   position: fixed;
   width: 100%;
   display: inline-block;
-  padding: 2em 0;
+  padding: 1em 0;
+  border-bottom: solid 0.5px rgba(255,255,255, 0.45);
 }
 
-.nav-logo-img {
-  display: block;
+
+.nav-buttons {
   position: relative;
-  height: 3em;
-  left: 50%;
-  transform: translateX(-50%);
+  display: none;
+  float: none;
+  font-size: 1.25rem;
+  color: white;
+  font-family: "Century Gothic";
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 20vh;
+  margin: 0 auto;
+  height: 100vh;
+
 }
 
-#nav-buttons {
+.navMobShow {
   position: relative;
   display: inline-block;
   float: none;
   font-size: 1.25rem;
   color: white;
   font-family: "Century Gothic";
-  width: 70%;
+  width: 100%;
   text-align: center;
   position: relative;
-  top: 50vh;
-  transform: translateY(-50%);
+  top: 20vh;
   margin: 0 auto;
+  height: 100vh;
+
 }
 
-.navContScroll {
-  margin-top: 0.5vw !important;
-}
-
-nav div div a {
-  padding: 7% 3%;
+.navMobShow a {
+  padding: 4% 2%;
   white-space: nowrap;
   background-color: rgba(11, 13, 16, 0);
   text-decoration: none;
@@ -77,11 +108,11 @@ nav div div a {
   border: solid;
   border-color: rgba(255, 255, 255, 0);
   border-width: 2px;
-  margin: 0 auto;
-
+  margin: 1.5rem auto;
+  width: 65%;
 }
 
-nav div div a:hover {
+.navMobShow a:hover {
   border-color: white;
   transition: all 0.5s ease;
 
@@ -99,16 +130,12 @@ nav div div a:hover {
 }
 
 #abn-nav {
-  width: 25%;
+  width: 17.5%;
   display: block;
   margin: 0 auto;
   transition: all ease 0.4s;
 }
 
-.abnScroll {
-  width: 9% !important;
-  margin-top: 1.1%;
-}
 
 #cover {
   position: relative;
