@@ -6,7 +6,7 @@
 body {
   background: #0b0d10;
   margin: 0;
-
+  box-sizing: border-box;
 }
 
 
@@ -17,13 +17,10 @@ body {
   z-index: 998;
   top: 0;
   transition: all ease 0.4s;
-  background-color: rgba(11, 13, 16, 0.9);
+  background-color: rgba(11, 13, 16, 0.95);
 }
 
 .navScroll {
-  background-color: rgba(11, 13, 16, 0.8);
-  height: 5.7vw !important;
-
 }
 
 #nav-container {
@@ -31,7 +28,6 @@ body {
   height: auto;
   margin: 0 auto;
   transition: all ease 0.4s;
-  background-color: rgba(11, 13, 16, 0.9);
 }
 
 #hbg-menu {
@@ -61,7 +57,7 @@ body {
   width: 100%;
   display: inline-block;
   padding: 1em 0;
-  border-bottom: solid 0.5px rgba(255,255,255, 0.45);
+  background-color: rgba(11, 13, 16, 0.75);
 }
 
 
@@ -94,13 +90,11 @@ body {
   top: 20vh;
   margin: 0 auto;
   height: 100vh;
-
 }
 
 .navMobShow a {
   padding: 4% 2%;
   white-space: nowrap;
-  background-color: rgba(11, 13, 16, 0);
   text-decoration: none;
   color: white;
   display: block;
@@ -136,28 +130,29 @@ body {
   transition: all ease 0.4s;
 }
 
+/*First section---------*/
 
 #cover {
   position: relative;
-  height: 1080px;
+  height: 100vh;
   width: 100%;
   max-height: 100vh;
   background: url("../Resources/homecover.png");
   background-size: cover;
   background-attachment: fixed;
-  background-position:50% 50%;
+  background-position: 35% 50%;
   overflow: hidden;
   background-repeat: no-repeat;
 }
 
 
 #cover h1 {
-  font-size: 6rem;
+  font-size: 4rem;
   color: white;
   font-family: "Century Gothic";
   position: absolute;
-  top: 11vw;
-  padding-left: 20%;
+  top: 37vw;
+  margin-left: 15%;
   margin-bottom: 0;
   line-height: 1em;
   white-space: nowrap;
@@ -171,25 +166,25 @@ body {
 #mountain {
   z-index: 8;
   position: absolute;
-  height: 69%;
+  height: 40%;
   right: 0;
   bottom: 0;
 }
 
 #ask-us-btn {
   position: relative;
-  top: 66vh;
-  display: inline;
-  font-size: 1.65vw;
+  top: 57vh;
+  display: block;
+  font-size: 1.5rem;
   border: solid;
   border-color: white;
   border-width: 3px;
   font-family: "Century Gothic";
   font-weight: normal;
-  width: 15vw;
-  margin-left: 20%;
+  margin: 0 auto;
   white-space: nowrap;
-  padding: 0.6% 1.3%;
+  width: 55vw;
+  padding: 3% 7%;
   /* Button fill colour transition  */
   background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 50%, rgba(255, 255, 255, 0) 50%);
   background-size: 200% 100%;
@@ -197,6 +192,7 @@ body {
   transition: all 0.5s ease;
   color: white;
   z-index: 9;
+
 }
 
 #ask-us-btn:hover {
@@ -213,9 +209,9 @@ body {
 
 #ask-us-btn img {
   position: relative;
-  width: 1.5%;
+  width: 10%;
   align-self:  center;
-  padding-left: 1.5%;
+  padding-left: 8%;
   margin-bottom: 0.1%;
 }
 
@@ -226,41 +222,45 @@ body {
   width: 100%;
   background-color: white;
   overflow: hidden;
-  padding-bottom: 3%;
+  margin: 0 auto;
+  padding-bottom: 5rem;
 }
 
 #aboutUsSec-container {
-  display: flex;
-  justify-content: space-between;
-  width: 60%;
-  margin: auto;
+  display: block;
+  width: 70%;
+  margin: 0 auto;
   font-family: "Century Gothic";
   color: #0b0d10;
 }
 
 #aboutUsSec-container h2 {
-  font-size: 4.3em;
-  margin-bottom: 5%;
+  font-size: 3rem;
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
   line-height: 100%;
+  display: block;
 }
 
 #aboutUsSec-container p {
   width: 100%;
   text-align: justify;
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-top: 10%;
-  margin-bottom: 12%;
+  margin-bottom: 2.5rem;
+  display: block;
+
 }
 
 #aboutUs-pSec {
   left: 0;
-  width: 45%;
-  min-width: 400px;
+  width: 100%;
+  display: block;
 
 }
 
 #aboutUsBtn a {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   border: solid;
   border-color: #0b0d10;
@@ -286,8 +286,8 @@ body {
 
   #laptop-img {
     position: relative;
-    display: inline-block;
-    top: 7vmax;
+    display: block;
+    margin-top: 5rem;
     right: 0;
     width: 45%;
     height: 35%;
@@ -295,8 +295,8 @@ body {
     animation-iteration-count: infinite;
     opacity: 100%;
     transition: all ease 0.5s;
-    min-width: 400px;
-    margin-left: 5%;
+    min-width: 300px;
+    margin-left: 0;
   }
 
   #laptop-img:hover {
@@ -320,16 +320,19 @@ body {
   #servicesSec {
     height: auto;
     background-color: white;
+    display: block;
   }
 
   #servicesSec-container {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
   }
 
   #servicesSec h3 {
-    margin: 0;
+    font-size: 3rem;
+    padding: 2rem 0;
+    margin: 0 auto;
     margin-bottom: 2%;
     font-family: "Century Gothic";
     font-size: 1.8em;
@@ -350,8 +353,8 @@ body {
   .serviceBox {
     position: relative;
     display: inline-block;
-    width: 230px;
-    height: 230px;
+    width: 100%;
+    height: auto;
     overflow: hidden;
     border-bottom: solid;
     border-width: 10px;
