@@ -4,8 +4,608 @@
 /* and above unless overwritten below */
 
 body {
-  background: #fcc;
+  background: #0b0d10;
+  margin: 0;
+
 }
+
+
+#nav {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  transition: all ease 0.4s;
+  background-color: rgba(11, 13, 16, 0.8);
+}
+
+.navScroll {
+  background-color: rgba(11, 13, 16, 0.8);
+  height: 5.7vw !important;
+
+}
+
+#nav-container {
+  width: 100%;
+  margin: 0 auto;
+  transition: all ease 0.4s;
+}
+
+.nav-logo {
+  position: fixed;
+  width: 100%;
+  display: inline-block;
+  padding: 2em 0;
+}
+
+.nav-logo-img {
+  display: block;
+  position: relative;
+  height: 3em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#nav-buttons {
+  position: relative;
+  display: inline-block;
+  float: none;
+  font-size: 1.25rem;
+  color: white;
+  font-family: "Century Gothic";
+  width: 70%;
+  text-align: center;
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+.navContScroll {
+  margin-top: 0.5vw !important;
+}
+
+nav div div a {
+  padding: 7% 3%;
+  white-space: nowrap;
+  background-color: rgba(11, 13, 16, 0);
+  text-decoration: none;
+  color: white;
+  display: block;
+  /* transition */
+  border: solid;
+  border-color: rgba(255, 255, 255, 0);
+  border-width: 2px;
+  margin: 0 auto;
+
+}
+
+nav div div a:hover {
+  border-color: white;
+  transition: all 0.5s ease;
+
+}
+
+#nav-contact {
+  color: #fffb05;
+  border: solid;
+  border-color: rgba(255, 251, 5, 0);
+  border-width: 2px;
+}
+
+#nav-contact:hover {
+  border-color: rgba(255, 251, 5, 1);
+}
+
+#abn-nav {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  transition: all ease 0.4s;
+}
+
+.abnScroll {
+  width: 9% !important;
+  margin-top: 1.1%;
+}
+
+#cover {
+  position: relative;
+  height: 1080px;
+  width: 100%;
+  max-height: 100vh;
+  background: url("../Resources/homecover.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position:50% 50%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+
+#cover h1 {
+  font-size: 6rem;
+  color: white;
+  font-family: "Century Gothic";
+  position: absolute;
+  top: 11vw;
+  padding-left: 20%;
+  margin-bottom: 0;
+  line-height: 1em;
+  white-space: nowrap;
+}
+
+#cover h1 span {
+ color: #fffb05;
+ font-weight: normal;
+}
+
+#mountain {
+  z-index: 8;
+  position: absolute;
+  height: 69%;
+  right: 0;
+  bottom: 0;
+}
+
+#ask-us-btn {
+  position: relative;
+  top: 66vh;
+  display: inline;
+  font-size: 1.65vw;
+  border: solid;
+  border-color: white;
+  border-width: 3px;
+  font-family: "Century Gothic";
+  font-weight: normal;
+  width: 15vw;
+  margin-left: 20%;
+  white-space: nowrap;
+  padding: 0.6% 1.3%;
+  /* Button fill colour transition  */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease;
+  color: white;
+  z-index: 9;
+}
+
+#ask-us-btn:hover {
+  background-position: left bottom;
+  color: #0b0d10;
+  cursor: pointer;
+
+}
+#ask-us-btn a {
+  text-decoration: none;
+  color: white;
+
+}
+
+#ask-us-btn img {
+  position: relative;
+  width: 1.5%;
+  align-self:  center;
+  padding-left: 1.5%;
+  margin-bottom: 0.1%;
+}
+
+/*About Us Section----------------*/
+
+#aboutUsSec {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  padding-bottom: 3%;
+}
+
+#aboutUsSec-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  font-family: "Century Gothic";
+  color: #0b0d10;
+}
+
+#aboutUsSec-container h2 {
+  font-size: 4.3em;
+  margin-bottom: 5%;
+  line-height: 100%;
+}
+
+#aboutUsSec-container p {
+  width: 100%;
+  text-align: justify;
+  font-size: 1.4em;
+  margin-top: 10%;
+  margin-bottom: 12%;
+}
+
+#aboutUs-pSec {
+  left: 0;
+  width: 45%;
+  min-width: 400px;
+
+}
+
+#aboutUsBtn a {
+  display: inline-block;
+  text-decoration: none;
+  border: solid;
+  border-color: #0b0d10;
+  border-width: 3px;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 1.4em;
+  padding: 2% 7%;
+  text-decoration: none;
+  /* Transition */
+  color: #0b0d10;
+  background: linear-gradient(to right, rgba(11, 13, 6, 1) 50%, rgba(11, 13, 6, 0) 50%);
+  background-size: 205% 105%;
+  background-position: right bottom;
+  transition: all 0.5s ease;
+}
+
+  #aboutUsBtn a:hover {
+    background-position: left bottom;
+    color: white;
+    cursor: pointer;
+  }
+
+  #laptop-img {
+    position: relative;
+    display: inline-block;
+    top: 7vmax;
+    right: 0;
+    width: 45%;
+    height: 35%;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    opacity: 100%;
+    transition: all ease 0.5s;
+    min-width: 400px;
+    margin-left: 5%;
+  }
+
+  #laptop-img:hover {
+    width: 48%;
+    height: 37%;
+    opacity: 85%;
+  }
+
+  .bounce1 {
+  animation-name: bounce1;
+  animation-timing-function: ease-in-out;
+}
+@keyframes bounce1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10%); }
+    100% { transform: translateY(0); }
+}
+
+/*Services----------------*/
+
+  #servicesSec {
+    height: auto;
+    background-color: white;
+  }
+
+  #servicesSec-container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #servicesSec h3 {
+    margin: 0;
+    margin-bottom: 2%;
+    font-family: "Century Gothic";
+    font-size: 1.8em;
+
+  }
+
+  #fourSContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 4%;
+
+  }
+
+  .serviceBox {
+    position: relative;
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    overflow: hidden;
+    border-bottom: solid;
+    border-width: 10px;
+    border-color: #fffb05;
+    margin: 2% 0;
+    cursor: pointer;
+  }
+
+  .serviceBox img {
+    display: block;
+    width: 175%;
+    left: -50%;
+    height: auto;
+    transform: translateX(-30%);
+    transition: .5s ease;
+
+  }
+
+  .serviceOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(11, 13, 16, 0.65);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+
+  }
+
+  .serviceBox:hover .serviceOverlay {
+    width: 0;
+
+  }
+
+  .serviceBox:hover img {
+    width: 210%;
+
+  }
+
+  .serviceBox h6 {
+    color: white;
+    padding: 0.7em;
+    font-size: 1.34em;
+    font-family: "Century Gothic";
+    border: solid;
+    border-width: 3.5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    margin: 0;
+
+  }
+
+
+
+
+/*    #fourSContainer div {
+    width: 24%;
+    height: 24vmin;
+    background-color: rgba(11, 13, 16);
+    overflow:hidden;
+
+  }
+
+  #fourSContainer a {
+    font-size: 1.3vw;
+    font-weight: bold;
+    font-family: "Century Gothic";
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+
+  }
+
+
+  #brandID-img {
+    background: url("https://www.fujifilm.com/products/digital_cameras/x/fujifilm_x_pro2/sample_images/img/index/ff_x_pro2_001.JPG");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    opacity: 20%;
+  }  */
+
+  /*Client Logo Section----------------*/
+
+  #clientLogoSec {
+    width: 100%;
+    background-color: #e3e3e3;
+  }
+
+  #clientLogoSec div {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh;
+  }
+
+  #ajlogo {
+   height: 4vw;
+  }
+
+  #esqlogo {
+    height: 3vw;
+  }
+
+  #tubologo {
+    height: 4.5vw;
+
+  }
+
+  #ktchnlogo {
+    height: 2.8vw;
+  }
+
+/*-------Contact Section------*/
+
+#contactSec {
+  width: 100%;
+  margin: 0 auto;
+  background: url("../Resources/contactBG.png");
+  background-repeat: none;
+  background-size: cover;
+}
+
+#contact-container {
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+#contactHead {
+  padding: 3.75% 0 2% 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact-container h2 {
+  font-size: 4.3em;
+  margin: 0;
+  font-family: "Century Gothic";
+  color: white;
+  width: 63%;
+  float: left;
+}
+
+#backTopBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Century Gothic";
+  text-decoration: none;
+  border: solid;
+  border-color: #fffb05;
+  border-width: 3px;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 1.4em;
+  padding: 1.5% 3%;
+  text-decoration: none;
+  float: right;
+  width: 30%;
+  text-align: left;
+  /* Transition */
+  color: #0b0d10;
+  background: linear-gradient(to right, rgba(255, 251, 5, 1) 50%, rgba(255, 251, 5, 0) 50%);
+  background-size: 205% 105%;
+  background-position: right bottom;
+  transition: all 0.5s ease;
+}
+
+#backTopBtn:hover {
+  background-position: left bottom;
+  color: black;
+  cursor: pointer;
+}
+
+#backTopBtn p {
+  margin: 0;
+  color: #fffb05;
+  transition: all 0.5s ease;
+}
+
+#backTopBtn:hover p {
+  background-position: left bottom;
+  color: #0b0d10;
+  cursor: pointer;
+}
+
+#backTopBtn img {
+  width: 9%;
+  height: 12%;
+}
+
+#contact-container form {
+  padding-bottom: 5%;
+}
+
+.formInput {
+  width: 100%;
+  margin: 1.1% 0;
+  padding: 0.6%;
+  font-size: 1.4em;
+  font-weight: normal;
+  font-family: "Century Gothic";
+  min-width: 100%;
+  min-height: 1.2em;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+}
+
+#contact-container textarea {
+  min-height: 150px;
+}
+
+#formSubmit {
+  width: 20%;
+  margin: 1% 0;
+  padding: 0.7%;
+  font-size: 1.4em;
+  font-weight: normal;
+  font-family: "Century Gothic";
+  font-weight: bolder;
+  min-height: 1.2em;
+  background-color: #fffb05;
+  border: none;
+  color: #0b0d10;
+  cursor: pointer;
+  transition: all ease 0.35s;
+}
+
+  #formSubmit:hover {
+    background-color: rgba(255, 251, 5, 0);
+    color: #fffb05;
+    box-shadow:inset 0px 0px 0px 3px #fffb05;
+
+  }
+
+
+
+/*Footer section----------------------*/
+
+  footer {
+    width: 100%;
+    margin: 0 auto;
+s    }
+
+  #footerContainer {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4%;
+  }
+
+  #footerDetails {
+    width: 54%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.15em;
+    font-weight: normal;
+    font-family: "Century Gothic";
+    color: white;
+    align-items: center;
+  }
+
+  .footerSocial {
+    width: 4.5vh;
+  }
+
 
 
 
@@ -19,594 +619,3 @@ body {
     background: #0b0d10;
   }
 }
-
-
-
-/* DESKTOP STYLES */
-
-@media screen and (min-width: 1000px) {
-
-  /* applies to screens wider than 999px */
-
-  body {
-    background: #0b0d10;
-    margin: 0;
-
-  }
-
-
-  #nav {
-    position: fixed;
-    width: 100%;
-    height: 8.5vw;
-    z-index: 999;
-    top: 0;
-    transition: all ease 0.4s
-  }
-
-  .navScroll {
-    background-color: rgba(11, 13, 16, 0.8);
-    height: 5.7vw !important;
-
-  }
-
-  #nav-container {
-    width: 60%;
-    margin: 2% 20%;
-    transition: all ease 0.4s
-  }
-
-  #nav-buttons {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    float:right;
-    font-size: 1.25rem;
-    color: white;
-    font-family: "Century Gothic";
-    padding: 0.1% 2%;
-    width: 60%;
-    margin-top: 1.65%;
-    text-align: center;
-  }
-
-  .navContScroll {
-    margin-top: 0.5vw !important;
-  }
-
-  nav div div a {
-    padding: 2% 3%;
-    white-space: nowrap;
-    background-color: rgba(11, 13, 16, 0);
-    text-decoration: none;
-    color: white;
-    /* transition */
-    border: solid;
-    border-color: rgba(255, 255, 255, 0);
-    border-width: 2px;
-  }
-
-  nav div div a:hover {
-    border-color: white;
-    transition: all 0.5s ease;
-
-  }
-
-  #nav-contact {
-    color: #fffb05;
-    border: solid;
-    border-color: rgba(255, 251, 5, 0);
-    border-width: 2px;
-  }
-
-  #nav-contact:hover {
-    border-color: rgba(255, 251, 5, 1);
-  }
-
-  #abn-nav {
-    width: 12%;
-    display: inline;
-    float: left;
-    transition: all ease 0.4s;
-  }
-
-  .abnScroll {
-    width: 9% !important;
-    margin-top: 1.1%;
-  }
-
-  #cover {
-    position: relative;
-    height: 1080px;
-    width: 100%;
-    max-height: 100vh;
-    background: url("../Resources/homecover.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position:50% 50%;
-    overflow: hidden;
-    background-repeat: no-repeat;
-  }
-
-
-  #cover h1 {
-    font-size: 6rem;
-    color: white;
-    font-family: "Century Gothic";
-    position: absolute;
-    top: 11vw;
-    padding-left: 20%;
-    margin-bottom: 0;
-    line-height: 1em;
-    white-space: nowrap;
- }
-
- #cover h1 span {
-   color: #fffb05;
-   font-weight: normal;
-}
-
-  #mountain {
-    z-index: 8;
-    position: absolute;
-    height: 69%;
-    right: 0;
-    bottom: 0;
-  }
-
-  #ask-us-btn {
-    position: relative;
-    top: 66vh;
-    display: inline;
-    font-size: 1.65vw;
-    border: solid;
-    border-color: white;
-    border-width: 3px;
-    font-family: "Century Gothic";
-    font-weight: normal;
-    width: 15vw;
-    margin-left: 20%;
-    white-space: nowrap;
-    padding: 0.6% 1.3%;
-    /* Button fill colour transition  */
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.35) 50%, rgba(255, 255, 255, 0) 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
-    transition: all 0.5s ease;
-    color: white;
-    z-index: 9;
-  }
-
-  #ask-us-btn:hover {
-    background-position: left bottom;
-    color: #0b0d10;
-    cursor: pointer;
-
-  }
-  #ask-us-btn a {
-    text-decoration: none;
-    color: white;
-
-  }
-
-  #ask-us-btn img {
-    position: relative;
-    width: 1.5%;
-    align-self:  center;
-    padding-left: 1.5%;
-    margin-bottom: 0.1%;
-  }
-
-  /*About Us Section----------------*/
-
-  #aboutUsSec {
-    position: relative;
-    width: 100%;
-    background-color: white;
-    overflow: hidden;
-    padding-bottom: 3%;
-  }
-
-  #aboutUsSec-container {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    margin: auto;
-    font-family: "Century Gothic";
-    color: #0b0d10;
-  }
-
-  #aboutUsSec-container h2 {
-    font-size: 4.3em;
-    margin-bottom: 5%;
-    line-height: 100%;
-  }
-
-  #aboutUsSec-container p {
-    width: 100%;
-    text-align: justify;
-    font-size: 1.4em;
-    margin-top: 10%;
-    margin-bottom: 12%;
-  }
-
-  #aboutUs-pSec {
-    left: 0;
-    width: 45%;
-    min-width: 400px;
-
-  }
-
-  #aboutUsBtn a {
-    display: inline-block;
-    text-decoration: none;
-    border: solid;
-    border-color: #0b0d10;
-    border-width: 3px;
-    white-space: nowrap;
-    text-align: center;
-    font-size: 1.4em;
-    padding: 2% 7%;
-    text-decoration: none;
-    /* Transition */
-    color: #0b0d10;
-    background: linear-gradient(to right, rgba(11, 13, 6, 1) 50%, rgba(11, 13, 6, 0) 50%);
-    background-size: 205% 105%;
-    background-position: right bottom;
-    transition: all 0.5s ease;
-  }
-
-    #aboutUsBtn a:hover {
-      background-position: left bottom;
-      color: white;
-      cursor: pointer;
-    }
-
-    #laptop-img {
-      position: relative;
-      display: inline-block;
-      top: 7vmax;
-      right: 0;
-      width: 45%;
-      height: 35%;
-      animation-duration: 3s;
-      animation-iteration-count: infinite;
-      opacity: 100%;
-      transition: all ease 0.5s;
-      min-width: 400px;
-      margin-left: 5%;
-    }
-
-    #laptop-img:hover {
-      width: 48%;
-      height: 37%;
-      opacity: 85%;
-    }
-
-    .bounce1 {
-    animation-name: bounce1;
-    animation-timing-function: ease-in-out;
-}
-  @keyframes bounce1 {
-      0%   { transform: translateY(0); }
-      50%  { transform: translateY(-10%); }
-      100% { transform: translateY(0); }
-}
-
-/*Services----------------*/
-
-    #servicesSec {
-      height: auto;
-      background-color: white;
-    }
-
-    #servicesSec-container {
-      width: 60%;
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    #servicesSec h3 {
-      margin: 0;
-      margin-bottom: 2%;
-      font-family: "Century Gothic";
-      font-size: 1.8em;
-
-    }
-
-    #fourSContainer {
-      position: relative;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      align-items: center;
-      padding-bottom: 4%;
-
-    }
-
-    .serviceBox {
-      position: relative;
-      display: inline-block;
-      width: 230px;
-      height: 230px;
-      overflow: hidden;
-      border-bottom: solid;
-      border-width: 10px;
-      border-color: #fffb05;
-      margin: 2% 0;
-      cursor: pointer;
-    }
-
-    .serviceBox img {
-      display: block;
-      width: 175%;
-      left: -50%;
-      height: auto;
-      transform: translateX(-30%);
-      transition: .5s ease;
-
-    }
-
-    .serviceOverlay {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: rgba(11, 13, 16, 0.65);
-      overflow: hidden;
-      width: 100%;
-      height: 100%;
-      transition: .5s ease;
-
-    }
-
-    .serviceBox:hover .serviceOverlay {
-      width: 0;
-
-    }
-
-    .serviceBox:hover img {
-      width: 210%;
-
-    }
-
-    .serviceBox h6 {
-      color: white;
-      padding: 0.7em;
-      font-size: 1.34em;
-      font-family: "Century Gothic";
-      border: solid;
-      border-width: 3.5px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      white-space: nowrap;
-      margin: 0;
-
-    }
-
-
-
-
-/*    #fourSContainer div {
-      width: 24%;
-      height: 24vmin;
-      background-color: rgba(11, 13, 16);
-      overflow:hidden;
-
-    }
-
-    #fourSContainer a {
-      font-size: 1.3vw;
-      font-weight: bold;
-      font-family: "Century Gothic";
-      color: white;
-      text-decoration: none;
-      text-align: center;
-      position: relative;
-
-    }
-
-
-    #brandID-img {
-      background: url("https://www.fujifilm.com/products/digital_cameras/x/fujifilm_x_pro2/sample_images/img/index/ff_x_pro2_001.JPG");
-      background-size: 200%;
-      background-repeat: no-repeat;
-      opacity: 20%;
-    }  */
-
-    /*Client Logo Section----------------*/
-
-    #clientLogoSec {
-      width: 100%;
-      background-color: #e3e3e3;
-    }
-
-    #clientLogoSec div {
-      margin: auto;
-      width: 60%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 4vh;
-    }
-
-    #ajlogo {
-     height: 4vw;
-    }
-
-    #esqlogo {
-      height: 3vw;
-    }
-
-    #tubologo {
-      height: 4.5vw;
-
-    }
-
-    #ktchnlogo {
-      height: 2.8vw;
-    }
-
-  /*-------Contact Section------*/
-
-  #contactSec {
-    width: 100%;
-    margin: 0 auto;
-    background: url("../Resources/contactBG.png");
-    background-repeat: none;
-    background-size: cover;
-  }
-
-  #contact-container {
-    width: 60%;
-    margin: 0 auto;
-
-  }
-
-  #contactHead {
-    padding: 3.75% 0 2% 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  #contact-container h2 {
-    font-size: 4.3em;
-    margin: 0;
-    font-family: "Century Gothic";
-    color: white;
-    width: 63%;
-    float: left;
-  }
-
-  #backTopBtn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: "Century Gothic";
-    text-decoration: none;
-    border: solid;
-    border-color: #fffb05;
-    border-width: 3px;
-    white-space: nowrap;
-    text-align: center;
-    font-size: 1.4em;
-    padding: 1.5% 3%;
-    text-decoration: none;
-    float: right;
-    width: 30%;
-    text-align: left;
-    /* Transition */
-    color: #0b0d10;
-    background: linear-gradient(to right, rgba(255, 251, 5, 1) 50%, rgba(255, 251, 5, 0) 50%);
-    background-size: 205% 105%;
-    background-position: right bottom;
-    transition: all 0.5s ease;
-  }
-
-  #backTopBtn:hover {
-    background-position: left bottom;
-    color: black;
-    cursor: pointer;
-  }
-
-  #backTopBtn p {
-    margin: 0;
-    color: #fffb05;
-    transition: all 0.5s ease;
-  }
-
-  #backTopBtn:hover p {
-    background-position: left bottom;
-    color: #0b0d10;
-    cursor: pointer;
-  }
-
-  #backTopBtn img {
-    width: 9%;
-    height: 12%;
-  }
-
-  #contact-container form {
-    padding-bottom: 5%;
-  }
-
-  .formInput {
-    width: 100%;
-    margin: 1.1% 0;
-    padding: 0.6%;
-    font-size: 1.4em;
-    font-weight: normal;
-    font-family: "Century Gothic";
-    min-width: 100%;
-    min-height: 1.2em;
-    background-color: rgba(255, 255, 255, 0.2);
-    border: none;
-    color: white;
-  }
-
-  #contact-container textarea {
-    min-height: 150px;
-  }
-
-  #formSubmit {
-    width: 20%;
-    margin: 1% 0;
-    padding: 0.7%;
-    font-size: 1.4em;
-    font-weight: normal;
-    font-family: "Century Gothic";
-    font-weight: bolder;
-    min-height: 1.2em;
-    background-color: #fffb05;
-    border: none;
-    color: #0b0d10;
-    cursor: pointer;
-    transition: all ease 0.35s;
-  }
-
-    #formSubmit:hover {
-      background-color: rgba(255, 251, 5, 0);
-      color: #fffb05;
-      box-shadow:inset 0px 0px 0px 3px #fffb05;
-
-    }
-
-
-
-/*Footer section----------------------*/
-
-    footer {
-      width: 100%;
-      margin: 0 auto;
-s    }
-
-    #footerContainer {
-      width: 60%;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1.4%;
-    }
-
-    #footerDetails {
-      width: 54%;
-      display: flex;
-      justify-content: space-between;
-      font-size: 1.15em;
-      font-weight: normal;
-      font-family: "Century Gothic";
-      color: white;
-      align-items: center;
-    }
-
-    .footerSocial {
-      width: 4.5vh;
-    }
