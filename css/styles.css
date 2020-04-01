@@ -683,3 +683,568 @@ body {
     background: #0b0d10;
   }
 }
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1000px) {
+
+  /* applies to screens wider than 999px */
+
+
+  #nav {
+    background-color: rgba(11, 13, 16, 0.0);
+  }
+
+  .navScroll {
+  }
+
+  #nav-container {
+    width: 60%;
+  }
+
+  #hbg-menu {
+    display: none;
+
+
+  }
+
+
+  .nav-logo {
+    width: 5%;
+    min-width: 100px;
+    top: 1.15vw;
+    background-color: rgba(11, 13, 16, 0);
+  }
+
+
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-family: "Century Gothic";
+    width: 60%;
+    top: 0;
+    float: right;
+    height: auto;
+  }
+
+
+
+  .nav-buttons a {
+    padding: 2% 2%;
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+    display: block;
+    /* transition */
+    border: solid;
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 2px;
+    margin: 2.5rem auto;
+    width: 20%;
+  }
+
+  .nav-buttons a:hover {
+    border-color: white;
+    transition: all 0.5s ease;
+
+  }
+
+
+  #abn-nav {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    clear: both;
+  }
+
+  /*First section---------*/
+
+  #cover {
+    background-position: 50% 50%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+    #cover-area {
+      width: 60%;
+    }
+
+  #cover h1 {
+    font-size: 6rem;
+    margin-top: 30vh;
+  }
+
+
+  #mountain {
+    height: 69%;
+
+  }
+
+  #ask-us-btn {
+    top: 65vh;
+    width: 23vw;
+    min-width: 350px;
+    padding: 0.85% 1.2%;
+
+  }
+
+
+  #ask-us-btn a {
+    font-size: 1.75rem;
+
+  }
+
+  #ask-us-btn img {
+    width: 6%;
+    right: 1.35rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /*About Us Section----------------*/
+
+  #aboutUsSec {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+  }
+
+  #aboutUsSec-container {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    font-family: "Century Gothic";
+    color: #0b0d10;
+  }
+
+  #aboutUsSec-container h2 {
+    font-size: 3rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2.5rem;
+    line-height: 100%;
+    display: block;
+  }
+
+  #aboutUsSec-container p {
+    width: 100%;
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-top: 10%;
+    margin-bottom: 2.5rem;
+    display: block;
+
+  }
+
+  #aboutUs-pSec {
+    left: 0;
+    width: 100%;
+    display: block;
+
+  }
+
+  #aboutUsBtn a {
+    display: block;
+    text-decoration: none;
+    border: solid;
+    border-color: #0b0d10;
+    border-width: 2px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 4% 7%;
+    text-decoration: none;
+    /* Transition */
+    color: #0b0d10;
+    background: linear-gradient(to right, rgba(11, 13, 6, 1) 50%, rgba(11, 13, 6, 0) 50%);
+    background-size: 205% 105%;
+    background-position: right bottom;
+    transition: all 0.5s ease;
+  }
+
+    #aboutUsBtn a:hover {
+      background-position: left bottom;
+      color: white;
+      cursor: pointer;
+    }
+
+    #laptop-img {
+      position: relative;
+      display: block;
+      margin-top: 5rem;
+      width: 45%;
+      height: 35%;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      opacity: 100%;
+      transition: all ease 0.5s;
+      min-width: 300px;
+      margin-left: 0;
+      right: 7%;
+
+    }
+
+    #laptop-img:hover {
+      width: 48%;
+      height: 37%;
+      opacity: 85%;
+    }
+
+    .bounce1 {
+    animation-name: bounce1;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes bounce1 {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-10%); }
+      100% { transform: translateY(0); }
+  }
+
+  /*Services----------------*/
+
+    #servicesSec {
+      height: auto;
+      background-color: white;
+      display: block;
+      border-top: solid 0.35px rgba(0,0,0,0.5);
+      padding-bottom: 2rem;
+    }
+
+    #servicesSec-container {
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #servicesSec h3 {
+      font-size: 3rem;
+      padding: 2rem 0;
+      margin: 0 auto;
+      margin-bottom: 2%;
+      font-family: "Century Gothic";
+      font-size: 1.8em;
+
+    }
+
+    #fourSContainer {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-bottom: 4%;
+
+    }
+
+    .serviceBox {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      height: 30vh;
+      overflow: hidden;
+      border-bottom: solid;
+      border-width: 10px;
+      border-color: #fffb05;
+      margin: 7% 0;
+      cursor: pointer;
+      -webkit-box-shadow: 0px 9px 20px -3px rgba(145,145,145,0.91);
+      -moz-box-shadow: 0px 9px 20px -3px rgba(145,145,145,0.91);
+      box-shadow: 0px 9px 20px -3px rgba(145,145,145,0.91);
+
+    }
+
+
+
+    .serviceBox img {
+      display: block;
+      width: 175%;
+      left: -50%;
+      height: auto;
+      transform: translateX(-30%);
+      transition: .5s ease;
+
+    }
+
+    .serviceOverlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(11, 13, 16, 0.65);
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      transition: .5s ease;
+
+    }
+
+    .serviceBox:hover .serviceOverlay {
+      width: 0;
+
+    }
+
+    .serviceBox:hover img {
+      width: 210%;
+
+    }
+
+    .serviceBox h6 {
+      color: white;
+      padding: 0.7em;
+      font-size: 1.34em;
+      font-family: "Century Gothic";
+      border: solid;
+      border-width: 3.5px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+      margin: 0;
+
+    }
+
+
+
+
+  /*    #fourSContainer div {
+      width: 24%;
+      height: 24vmin;
+      background-color: rgba(11, 13, 16);
+      overflow:hidden;
+
+    }
+
+    #fourSContainer a {
+      font-size: 1.3vw;
+      font-weight: bold;
+      font-family: "Century Gothic";
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      position: relative;
+
+    }
+
+
+    #brandID-img {
+      background: url("https://www.fujifilm.com/products/digital_cameras/x/fujifilm_x_pro2/sample_images/img/index/ff_x_pro2_001.JPG");
+      background-size: 200%;
+      background-repeat: no-repeat;
+      opacity: 20%;
+    }  */
+
+    /*Client Logo Section----------------*/
+
+    #clientLogoSec {
+      width: 100%;
+      background-color: #e3e3e3;
+    }
+
+    #clientLogoSec div {
+      margin: auto;
+      width: 70%;
+      display: block;
+      padding: 7vh;
+    }
+
+    #ajlogo {
+     width: 60%;
+     margin: 0 auto;
+     display: block;
+     margin-bottom: 2.5rem;
+     opacity: 60%;
+    }
+
+    #esqlogo {
+      width: 70%;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 2.5rem;
+      opacity: 60%;
+
+    }
+
+    #tubologo {
+      width: 32%;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 2.5rem;
+      opacity: 60%;
+
+    }
+
+    #ktchnlogo {
+      width: 50%;
+      margin: 0 auto;
+      display: block;
+      opacity: 60%;
+
+    }
+
+  /*-------Contact Section------*/
+
+  #contactSec {
+    width: 100%;
+    margin: 0 auto;
+    background: url("../Resources/contactBG.png");
+    background-repeat: none;
+    background-size: cover;
+  }
+
+  #contact-container {
+    width: 70%;
+    margin: 0 auto;
+
+  }
+
+  #contactHead {
+    padding: 2rem 0 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #contact-container h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: "Century Gothic";
+    color: white;
+    float: left;
+  }
+
+  #backTopBtn {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Century Gothic";
+    text-decoration: none;
+    border: solid;
+    border-color: #fffb05;
+    border-width: 3px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 1.5% 3%;
+    text-decoration: none;
+    float: right;
+    width: 30%;
+    text-align: left;
+    /* Transition */
+    color: #0b0d10;
+    background: linear-gradient(to right, rgba(255, 251, 5, 1) 50%, rgba(255, 251, 5, 0) 50%);
+    background-size: 205% 105%;
+    background-position: right bottom;
+    transition: all 0.5s ease;
+  }
+
+  #backTopBtn:hover {
+    background-position: left bottom;
+    color: black;
+    cursor: pointer;
+  }
+
+  #backTopBtn p {
+    margin: 0;
+    color: #fffb05;
+    transition: all 0.5s ease;
+  }
+
+  #backTopBtn:hover p {
+    background-position: left bottom;
+    color: #0b0d10;
+    cursor: pointer;
+  }
+
+  #backTopBtn img {
+    width: 9%;
+    height: 12%;
+  }
+
+  #contact-container form {
+    padding-bottom: 5%;
+  }
+
+  .formInput {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 4%;
+    font-size: 1.25rem;
+    font-weight: normal;
+    font-family: "Century Gothic";
+    min-width: 100%;
+    min-height: 1.2em;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    box-sizing: border-box;
+  }
+
+  #contact-container textarea {
+    height: 17rem;
+    min-height: 150px;
+  }
+
+  #formSubmit {
+    width: 100%;
+    margin-bottom: 2.5rem;
+    padding: 3%;
+    font-size: 1.4em;
+    font-weight: normal;
+    font-family: "Century Gothic";
+    font-weight: bolder;
+    min-height: 1.2em;
+    background-color: #fffb05;
+    border: none;
+    color: #0b0d10;
+    cursor: pointer;
+    transition: all ease 0.35s;
+  }
+
+    #formSubmit:hover {
+      background-color: rgba(255, 251, 5, 0);
+      color: #fffb05;
+      box-shadow:inset 0px 0px 0px 3px #fffb05;
+
+    }
+
+
+
+  /*Footer section----------------------*/
+
+    footer {
+      width: 100%;
+      margin: 0 auto;
+      border-top: solid 0.35px rgba(255,255,255,0.5);
+  }
+
+    #footerContainer {
+      width: 70%;
+      margin: 0 auto;
+      display: block;
+      padding: 1rem;
+    }
+
+    #footerDetails {
+      width: 100%;
+      display: block;
+      font-size: 1.15rem;
+      text-align: center;
+      font-weight: normal;
+      font-family: "Century Gothic";
+      color: white;
+      align-items: center;
+    }
+
+    .footerSocial {
+      width: 4.5vh;
+      display: block;
+      margin: 0 auto;
+    }
