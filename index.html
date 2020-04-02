@@ -9,27 +9,28 @@
 </head>
 <body>
 
-  <nav id="nav">
+  <header>
 
-    <div id="nav-container">
-
+  <div class="header-inner">
+      <img class="logo" src="Resources/ABNLogo.png" alt="">
       <div id="hbg-menu">
-        <div class="hbg-line"></div>
-        <div class="hbg-line"></div>
-        <div class="hbg-line"></div>
+        <div id="line1" class="hbg-line"></div>
+        <div id="line2" class="hbg-line"></div>
+        <div id="line3" class="hbg-line"></div>
       </div>
 
-      <a href="#" class="nav-logo"><img src="Resources/ABNLogo.png" alt="" id="abn-nav"></a>
-      <div id="navbtns" class="nav-buttons">
-        <a href="#">Home</a>
-        <a href="#">Work</a>
-        <a href="#">Services</a>
-        <a href="#">About Us</a>
-        <a href="#" id="nav-contact">Contact</a>
-      </div>
-    </div>
-  </nav>
+      <nav id="navbar" class="nav-bar">
+          <ul>
+              <li><a class="nav-links" href="">Home</a></li>
+              <li><a href="">Work</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a id="contact-link" href="">Contact Us</a></li>
+          </ul>
+      </nav>
+  </div>
 
+  </header>
 
   <section id="cover">
     <div id="cover-area">
@@ -102,14 +103,6 @@
 
     </section>
 
-    <div id="clientLogoSec">
-      <div>
-        <img id="ajlogo" src="Resources/AJLogo.png" alt="Al Jumeirah">
-        <img id="esqlogo" src="Resources/EsquiresLOGO.png" alt="Esquires Coffee">
-        <img id="tubologo" src="Resources/TUBOLogo.png" alt="Tubo">
-        <img id="ktchnlogo" src="Resources/ktchnLogo.png" alt="The Ktchn">
-      </div>
-    </div>
 
     <section id="contactSec">
       <div id="contact-container">
@@ -127,6 +120,15 @@
           <textarea name="text" class="formInput" placeholder="Enquiry"></textarea>
           <input id="formSubmit" type="submit" value="Submit"/>
         </form>
+      </div>
+    </section>
+
+    <section id="clientLogoSec">
+      <div>
+        <img id="ajlogo" src="Resources/AJLogo.png" alt="Al Jumeirah">
+        <img id="esqlogo" src="Resources/EsquiresLOGO.png" alt="Esquires Coffee">
+        <img id="tubologo" src="Resources/TUBOLogo.png" alt="Tubo">
+        <img id="ktchnlogo" src="Resources/ktchnLogo.png" alt="The Ktchn">
       </div>
     </section>
 

@@ -9,126 +9,111 @@ body {
   box-sizing: border-box;
 }
 
-
-#nav {
-  position: fixed;
+header {
   width: 100%;
-  height: auto;
-  z-index: 998;
-  top: 0;
-  transition: all ease 0.4s;
-  background-color: rgba(11, 13, 16, 0.95);
-}
-
-.navScroll {
-}
-
-#nav-container {
-  width: 100%;
-  height: auto;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
+  padding: 5% 0;
+  background-color: rgba(0 , 0, 0, 0.8);
+  z-index: 999;
+  position: fixed;
+}
+
+.header-inner  {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+
+}
+
+.logo {
+  width: 6rem;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-bar {
+  display: none;
+
+}
+
+.navbar-show{
+  display: block;
+  height: 100vh;
+  list-style-type: none;
+  font-size: 1.25rem;
+  color: white;
+  font-family: "Century Gothic";
+  text-align: center;
+  transition: all ease 1s;
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: block;
+  position: relative;
+  top: 15%;
+}
+
+nav li {
+
+}
+
+nav a {
+  letter-spacing: 0.25rem;
+  color: white;
+  font-family: "Century Gothic";
+  text-decoration: none;
+  display: block;
+  margin: 1rem auto;
+  padding: 4% 0;
+  width: 65%;
+  border: solid;
+  border-color: rgba(255, 255, 255, 0);
+  border-width: 2px;
+}
+
+nav a:hover {
+  border-color: rgba(255, 255, 255, 1);
   transition: all ease 0.4s;
+}
+
+#contact-link {
+  color: #fffb05 ;
+  border-color: rgba(255, 251, 5, 0);
+}
+
+#contact-link:hover {
+  border-color: rgba(255, 251, 5, 1);
+  transition: all ease 0.4s;
+
 }
 
 #hbg-menu {
+  display: inline-block;
   width: 4.75rem;
-  height: 4.75rem;
-  position: absolute;
-  right: 0;
+  height: 4rem;
   cursor: pointer;
-  z-index: 999;
-
-
+  float: right;
 }
 
 .hbg-line {
   width: 45%;
   margin: 0.4rem auto;
-  height: 2.5px;
+  height: 5%;
   background-color: rgba(255,255,255, 0.9);
   position: relative;
-  transform: translateY(-50%);
-  top: 25%;
   display: block;
-}
-
-.nav-logo {
-  position: fixed;
-  width: 100%;
-  display: inline-block;
-  padding: 1em 0;
-  background-color: rgba(11, 13, 16, 0.75);
-}
-
-
-.nav-buttons {
-  position: relative;
-  display: none;
-  float: none;
-  font-size: 1.25rem;
-  color: white;
-  font-family: "Century Gothic";
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: 20vh;
-  margin: 0 auto;
-  height: 100vh;
+  top: 20%;
 
 }
 
-.navMobShow {
-  position: relative;
-  display: inline-block;
-  float: none;
-  font-size: 1.25rem;
-  color: white;
-  font-family: "Century Gothic";
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: 20vh;
-  margin: 0 auto;
-  height: 100vh;
-}
-
-.navMobShow a {
-  padding: 4% 2%;
-  white-space: nowrap;
-  text-decoration: none;
-  color: white;
-  display: block;
-  /* transition */
-  border: solid;
-  border-color: rgba(255, 255, 255, 0);
-  border-width: 2px;
-  margin: 1.5rem auto;
-  width: 65%;
-}
-
-.navMobShow a:hover {
-  border-color: white;
-  transition: all 0.5s ease;
-
-}
-
-#nav-contact {
-  color: #fffb05;
-  border: solid;
-  border-color: rgba(255, 251, 5, 0);
-  border-width: 2px;
-}
-
-#nav-contact:hover {
-  border-color: rgba(255, 251, 5, 1);
-}
-
-#abn-nav {
-  width: 17.5%;
-  display: block;
-  margin: 0 auto;
-  transition: all ease 0.4s;
-}
 
 /*First section---------*/
 

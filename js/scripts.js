@@ -48,17 +48,21 @@ window.onscroll = function() {
 }
 
 
-    let mobMenu= document.getElementById("navbtns");
-
 
 
 //Navigation bar button-------------------
 
+    let mobMenu= document.getElementById("navbar");
+
 document.querySelector("#hbg-menu").addEventListener("click", function(){
-        mobMenu.classList.toggle("nav-buttons");
-        mobMenu.classList.toggle("navMobShow");
+        mobMenu.classList.toggle("nav-bar");
+        mobMenu.classList.toggle("navbar-show");
 
     });
+
+
+
+
 
 
 
