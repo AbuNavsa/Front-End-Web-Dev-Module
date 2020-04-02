@@ -53,10 +53,16 @@ window.onscroll = function() {
 //Navigation bar button-------------------
 
     let mobMenu= document.getElementById("navbar");
+    let menuBg= document.querySelector("header");
+
 
 document.querySelector("#hbg-menu").addEventListener("click", function(){
         mobMenu.classList.toggle("nav-bar");
         mobMenu.classList.toggle("navbar-show");
+
+
+
+
 
     });
 
