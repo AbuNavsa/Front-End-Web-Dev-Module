@@ -22,30 +22,44 @@ function typeWriter() {
   }
 //Nav Bar Colour Change Past navScrollPoint
 
-function scrollFunction() {
-  if (document.body.scrollTop > 100) {
-    document.getElementById("nav").addClass("navScroll");
-  } else {
-    document.getElementById("nav").removeClass("navScroll");
+
+let scrollpos = window.scrollY
+const header = document.querySelector("header")
+const header_height = header.offsetHeight
+
+
+const addScrollH = () => header.classList.add("header-scroll")
+const removeScrollH= () => header.classList.remove("header-scroll")
+
+const logo = document.querySelector(".logo")
+const addScrollL = () => logo.classList.add("logo-scroll")
+const removeScrollL= () => logo.classList.remove("logo-scroll")
+
+const nav = document.querySelector(".navbar-inner")
+const addScrollN = () => nav.classList.add("navbar-inner-scroll")
+const removeScrollN= () => nav.classList.remove("navbar-inner-scroll")
+
+
+window.addEventListener('scroll', function() {
+  scrollpos = window.scrollY;
+
+  if (scrollpos >= header_height) {
+    addScrollH()
+    addScrollL()
+    addScrollN()
+}
+  else {
+    removeScrollH()
+    removeScrollL()
+    removeScrollN()
   }
-}
+})
 
-window.onscroll = function() {
-    let nav = document.getElementById("nav");
-    let navCont = document.getElementById("nav-container")
-    let abnLogo = document.getElementById("abn-nav")
 
-    if ( window.pageYOffset > 100 ) {
-        nav.classList.add("navScroll");
-        navCont.classList.add("navContScroll");
-        abnLogo.classList.add("abnScroll");
-    } else {
-        nav.classList.remove("navScroll");
-        navCont.classList.remove("navContScroll");
-        abnLogo.classList.remove("abnScroll");
 
-    }
-}
+
+
+
 
 
 
