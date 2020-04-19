@@ -635,6 +635,17 @@ nav a:hover {
 
 /* Services Page -----------------------------------------------------------------------------------------------------------------------*/
 
+.page-banner {
+    display: block;
+    width: 100%;
+    font-family: "Century Gothic";
+    padding: 35% 0 15% 0;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/1/1b/Nice-night-view-with-blurred-cars_1200x900.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 .page-section {
     display: block;
     width: 100%;
@@ -660,13 +671,10 @@ nav a:hover {
   color: #0b0d10;
   text-align: center;
   margin: 0 auto;
-
+  color: white;
+  
 }
 
-#service-page-top {
-    padding-top: 9rem;
-    padding-bottom: 0;
-}
 
 .services-img-box {
     width: 100%;
@@ -903,7 +911,6 @@ nav a:hover {
     display: inline-block;
   }
 
-  /*About Us Section----------------*/
 
   /*About Us Section----------------*/
 
