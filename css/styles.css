@@ -199,6 +199,7 @@ nav a:hover {
   cursor: pointer;
 
 }
+
 #ask-us-btn a {
   text-decoration: none;
   color: white;
@@ -640,7 +641,7 @@ nav a:hover {
     width: 100%;
     font-family: "Century Gothic";
     padding: 35% 0 15% 0;
-    background: url("https://upload.wikimedia.org/wikipedia/commons/1/1b/Nice-night-view-with-blurred-cars_1200x900.jpg");
+    background: url("../Resources/services-banner-img.png");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -672,7 +673,6 @@ nav a:hover {
   text-align: center;
   margin: 0 auto;
   color: white;
-  
 }
 
 
@@ -682,12 +682,16 @@ nav a:hover {
     overflow: hidden; 
 }
 
+.services-img-box img {
+    width: 100%;
+}
+
 .service-box:first-child {
     padding-top: 0;
 }
 
 .service-box {
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .service-box h2 {
@@ -697,6 +701,36 @@ nav a:hover {
 .service-box p {
     font-size: 1.1rem;
     text-align: justify;
+    margin-bottom: 3rem;
+}
+
+.page-slide-buttons a {
+  display: block;
+  border: solid;
+  border-color: #0b0d10;
+  border-width: 2px;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 4% 7%;
+  text-decoration: none;
+  /* Transition */
+  color: #0b0d10;
+  background: linear-gradient(to right, rgba(11, 13, 6, 1) 50%, rgba(11, 13, 6, 0) 50%);
+  background-size: 205% 105%;
+  background-position: right bottom;
+  transition: all 0.5s ease;
+}
+
+  .page-slide-buttons a:hover {
+    background-position: left bottom;
+    color: white;
+    cursor: pointer;
+      
+  }
+
+#getintouch-services {
+    margin-bottom: 1rem;
 }
 
 /*Footer section----------------------*/
@@ -1306,6 +1340,87 @@ nav a:hover {
 
 
   }
+    
+    /* Services Page -----------------------------------------------------------------------------------------------------------------------*/
+
+.page-banner {
+    width: 100%;
+    padding: 10% 0 7% 0;
+    background-position: left;
+    
+}
+
+.page-section {
+
+    
+}
+
+
+.section-container {
+    display: block;
+    width: 60%;
+    padding: 2rem 0;
+}
+
+.page-heading {
+  font-size: 5.5rem;
+}
+
+
+.services-img-box {
+    width: 30%;
+    margin: 0 auto; 
+}
+    
+
+
+.services-img-box img {
+}
+
+
+.service-box {
+    padding: 0;
+    border-bottom: solid #dedede 2px;
+    padding-bottom: 4rem;
+}
+
+.service-box:nth-child(4) {
+    border: none;
+}
+ 
+.service-box h2 {
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.service-box p {
+    width: 100%;
+    font-size: 1.4rem;
+ 
+}
+    
+
+
+.page-slide-buttons a {
+  display: inline-block;
+  font-size: 1.4rem;
+  padding: 2% 15%;
+  
+}
+
+  .page-slide-buttons a:hover {
+
+      
+  }
+
+#getintouch-services {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+    
+
 
   /*Footer section----------------------*/
 
