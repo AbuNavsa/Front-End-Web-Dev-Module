@@ -325,6 +325,8 @@ nav a:hover {
     padding-bottom: 2rem;
   }
 
+  
+
   #servicesSec-container {
     width: 70%;
     margin: 0 auto;
@@ -629,6 +631,61 @@ nav a:hover {
 
     }
 
+
+
+/* Services Page -----------------------------------------------------------------------------------------------------------------------*/
+
+.page-section {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: "Century Gothic";
+    background-color: white;
+}
+
+
+.section-container {
+    display: block;
+    width: 70%;
+    height: auto;
+    padding: 2rem 0;
+    margin: 0 auto;
+    text-align: 
+}
+
+.page-heading {
+  font-size: 3rem;
+  display: block;
+  color: #0b0d10;
+  text-align: center;
+  margin: 0;
+}
+
+#service-page-top {
+    padding-top: 9rem;
+    padding-bottom: 0;
+}
+
+.services-img-box {
+    width: 100%;
+    height: auto;
+    overflow: hidden; 
+}
+
+.service-box {
+    padding: 1rem 0;
+}
+
+.service-box h2 {
+    font-size: 1.75rem;
+}
+
+.service-box p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
 /*Footer section----------------------*/
 
   footer {
@@ -660,6 +717,8 @@ nav a:hover {
     display: block;
     margin: 0 auto;
   }
+
+
 
 
 
@@ -1234,4 +1293,47 @@ nav a:hover {
           #formSubmit:hover {
 
 
-          }
+  }
+
+  /*Footer section----------------------*/
+
+    footer {
+      width: 100%;
+      margin: 0 auto;
+      border-top: solid 0.35px rgba(255,255,255,0.5);
+      display: inline-block;
+      padding: 2rem;
+      box-sizing: border-box;
+  }
+
+    #footerContainer {
+      width: 60%;
+      display: block;
+      padding: 0;
+      margin: auto;
+
+    }
+
+    #footerDetails {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.15rem;
+      font-weight: normal;
+      align-items: center;
+      padding: 0;
+      margin-bottom: 2rem;
+      opacity: 70%;
+    }
+
+    #footerDetails p {
+      margin: 0;
+
+    }
+
+    .footerSocial {
+      width: 4vh;
+      display: block;
+      margin: 0 auto  ;
+
+    }

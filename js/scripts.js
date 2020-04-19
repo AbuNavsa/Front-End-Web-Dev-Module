@@ -20,6 +20,9 @@ function typeWriter() {
       }
     }, 250);
   }
+
+
+
 //Nav Bar Colour Change Past navScrollPoint
 
 
@@ -54,13 +57,6 @@ window.addEventListener('scroll', function() {
     removeScrollN()
   }
 })
-
-
-
-
-
-
-
 
 
 
