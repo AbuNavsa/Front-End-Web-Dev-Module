@@ -641,10 +641,14 @@ nav a:hover {
     width: 100%;
     font-family: "Century Gothic";
     padding: 35% 0 15% 0;
+
+    
+}
+
+#services-banner {
     background: url("../Resources/services-banner-img.png");
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .page-section {
@@ -663,7 +667,6 @@ nav a:hover {
     height: auto;
     padding: 2rem 0;
     margin: 0 auto;
-    text-align: 
 }
 
 .page-heading {
@@ -694,11 +697,12 @@ nav a:hover {
     padding: 2rem 0;
 }
 
-.service-box h2 {
+.page-sub-headings {
     font-size: 1.75rem;
+    display: block;
 }
 
-.service-box p {
+.page-paragraph {
     font-size: 1.1rem;
     text-align: justify;
     margin-bottom: 3rem;
@@ -731,6 +735,45 @@ nav a:hover {
 
 #getintouch-services {
     margin-bottom: 1rem;
+}
+
+/*About Us--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.about-section-container {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 2rem 0;
+    margin: 0 auto;
+    text-align: 
+}
+
+.about-section-inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-section-container img {
+    display: inline-block;
+    width: 32%;
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+
+#about-banner {
+    background: url("../Resources/services-banner-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*Footer section----------------------*/
@@ -1388,13 +1431,12 @@ nav a:hover {
     border: none;
 }
  
-.service-box h2 {
+.page-sub-headings {
     font-size: 3.5rem;
-    width: 100%;
     text-align: center;
 }
 
-.service-box p {
+.page-paragraph {
     width: 100%;
     font-size: 1.4rem;
  
