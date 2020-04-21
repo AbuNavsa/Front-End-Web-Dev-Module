@@ -77,14 +77,48 @@ document.querySelector("#hbg-menu").addEventListener("click", function(){
     });
 
 
-
-
-
-
-
 //To Top Button ---------------------------
 
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+//Quote Slide -------------------------------
+
+var quoteSlideIndex = 1;
+showQuoteSlides(quoteSlideIndex);
+
+function incSlides(n) {
+    showQuoteSlides(quoteSlideIndex += n );
+}
+
+function currentQuoteSlides(n) {
+    showQuoteSlides(quoteSlideIndex = n );
+}
+
+function showQuoteSlides(n) {
+    var i;
+    var quoteSlides = document.getElementsByClassName('quote-slides');
+    
+    if(n > quoteSlides.length) {
+        quoteSlideIndex = 1
+    }
+    if(n < 1) {
+        quoteSlideIndex = quoteSlides.length
+    }
+    for (i = 0; i < quoteSlides.length; i++) {
+        quoteSlides[i].style.display="none";
+    }
+    
+    quoteSlides[quoteSlideIndex-1].style.display = "block";
+    
+}
+
+
+
+
+
+
+

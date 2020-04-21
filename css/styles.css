@@ -744,9 +744,13 @@ nav a:hover {
     display: block;
     width: 100%;
     height: auto;
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
     margin: 0 auto;
     text-align: 
+}
+
+.about-section-container:nth-child(even) {
+    background-color: #e3e3e3;
 }
 
 .about-section-inner {
@@ -756,7 +760,7 @@ nav a:hover {
 
 .about-section-container img {
     display: inline-block;
-    width: 32%;
+    width: 50%;
 }
 
 .about-images {
@@ -767,14 +771,48 @@ nav a:hover {
 }
 
 
-
-
-
 #about-banner {
     background: url("../Resources/services-banner-img.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.quoteslide-container {
+    background: #e3e3e3;
+    position: relative;
+}
+
+.quote-slides {
+    display: none;
+    padding: 7%;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.quote-slides q {
+    font-style: italic;
+}
+
+.previous-q, .next-q {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: ;
+    width: auto;
+    padding: 1rem;
+    font-size: 3rem;
+    user-select: none;
+}
+
+.next-q {
+    right: 0;
+}
+
+
 
 /*Footer section----------------------*/
 
