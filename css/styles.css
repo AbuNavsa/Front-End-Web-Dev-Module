@@ -1555,32 +1555,16 @@ nav a:hover {
     background-position: center;
 }
 
-#review-heading {
-    color: ##fffb05;
-    
-}
 
-
-
-.quoteslide-container {
-    background: #e3e3e3;
-    position: relative;
-}
 
 .quote-slides {
     padding: 4%;
     width: 60%;
-
     font-size: 1.4rem;
 }
 
-.quote-slides q {
-    font-style: italic;
-}
 
-.quote-slides p {
-    font-weight: bold;
-}
+
 
 .previous-q, .next-q {
     padding: 3rem 15%;

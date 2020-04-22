@@ -1,6 +1,4 @@
-console.log("hello");
-
-document.body.onload = function() {
+document.body.onload = function () {
   typeWriter();
 };
 
@@ -116,8 +114,17 @@ function showQuoteSlides(n) {
     
 }
 
+let nextQuote = document.querySelector('.next-q');
+let prevQuote = document.querySelector('.previous-q');
 
 
+nextQuote.addEventListener('click', function (event) {
+   incSlides(1);
+}, false);
+
+prevQuote.addEventListener('click', function (event) {
+   incSlides(-1);
+}, false);
 
 
 
