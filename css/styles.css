@@ -14,8 +14,8 @@ header {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: 5% 0;
-  background-color: rgba(0 , 0, 0, 0.7);
+  padding: 4% 0;
+  background-color: rgba(0 , 0, 0, 0.9);
   z-index: 999;
   position: fixed;
 }
@@ -653,6 +653,7 @@ nav a:hover {
 
 .page-section {
     display: block;
+    color: #0b0d10;
     width: 100%;
     height: auto;
     margin: 0 auto;
@@ -772,11 +773,22 @@ nav a:hover {
 
 
 #about-banner {
-    background: url("../Resources/services-banner-img.png");
+    background: url("../Resources/aboutbanner.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#review-heading {
+    text-align: center;
+}
+
+#review-heading:before {
+    content: ' \22C6';
+}
+
+#review-heading:after {
+    content: ' \22C6';
+}
 
 .quoteslide-container {
     background: #e3e3e3;
@@ -794,6 +806,10 @@ nav a:hover {
 
 .quote-slides q {
     font-style: italic;
+}
+
+.quote-slides p {
+    font-weight: bold;
 }
 
 .previous-q, .next-q {
