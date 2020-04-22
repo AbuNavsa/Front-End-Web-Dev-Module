@@ -1,75 +1,21 @@
-# CTEC3905 Assignment
+Sources
 
-This is very basic boilerplate code for you to get started with.
+https://unsplash.com/photos/m5fHSKYSflI - mountain background image, edited and added black tint in photoshop.
 
-## index.html
+https://pixabay.com/vectors/laptop-computer-portable-pc-2298286/ - Laptop image, i edited the colours in Adobe Illustrator.
 
-The `index.html` file includes a basic template with a link to the `css/styles.css` file and a script tag after the main content which links to the `js/scripts.js` file.
+https://www.pexels.com/photo/seat-sketch-paper-on-table-1111692/ - Sketchbook image, branding logo 
 
-```
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>P-Number</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  
-  <h1>Hello World</h1>
+https://p.kindpng.com/picc/s/121-1211281_video-camera-images-picture-download-camera-canon-xf300.png - Camera image, on about us page, added a shadow and removed background in Photoshop
 
-  <script src="js/scripts.js"></script>
-</body>
-</html>
-```
+https://videos.pexels.com/zh-tw/photo/imac-photoshop-web-326501/ - Image of macs on about us page
 
-## css/styles.css
+https://pxhere.com/en/photo/911060 - Image of designers working together, used on about us page
 
-The `css/styles.css` file contains a basic starting template for a responsive page.
+https://www.pexels.com/photo/man-wearing-black-and-white-stripe-shirt-looking-at-white-printer-papers-on-the-wall-212286/ - Image of man looking at ideas on a wall, used on about page
 
-```
-/* MOBILE AND GLOBAL STYLES */
+https://www.pexels.com/zh-tw/photo/3626622/ - Image of people working together, used on about us page.
 
-/* applies to screens smaller than 500px (first breakpoint) */
-/* and above unless overwritten below */
-
-body {
-  background: #fcc;
-} 
-
-
-
-/* TABLET STYLES */
-
-@media screen and (min-width: 500px) {
-
-  /* applies to screens wider than 499px */
-  
-  body {
-    background: #cfc;
-  } 
-}
-
-
-
-/* DESKTOP STYLES */
-
-@media screen and (min-width: 1000px) {
-
-  /* applies to screens wider than 999px */
-
-  body {
-    background: #ccf;
-  } 
-}
-
-```
-
-## js/scripts.js
-
-The `js/scripts.js` file contains a simple console.log statement to confirm that it is being executed.
-
-```
-console.log("hello");
-```
+ABN Logo is my current logo created in Adobe Illustator.
+AM logo on services page was created by me in Adobe Illustrator.
+Client logos come from my existing clients and designs I have produced for them.
