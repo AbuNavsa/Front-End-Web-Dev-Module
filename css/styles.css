@@ -64,7 +64,7 @@ header {
   padding: 0;
   display: block;
   position: relative;
-  top: 12.5%;
+  top: 15%;
 }
 
 nav li {
@@ -240,6 +240,7 @@ nav a:hover {
   margin-bottom: 2.5rem;
   line-height: 100%;
   display: block;
+    
 }
 
 #aboutUsSec-container p {
@@ -383,6 +384,11 @@ nav a:hover {
 
   }
 
+#service-video-img {
+    transform: translateX(0.01%);
+
+}
+
   .serviceOverlay {
     position: absolute;
     bottom: 0;
@@ -423,36 +429,6 @@ nav a:hover {
     margin: 0;
 
   }
-
-
-
-
-/*    #fourSContainer div {
-    width: 24%;
-    height: 24vmin;
-    background-color: rgba(11, 13, 16);
-    overflow:hidden;
-
-  }
-
-  #fourSContainer a {
-    font-size: 1.3vw;
-    font-weight: bold;
-    font-family: "Century Gothic";
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    position: relative;
-
-  }
-
-
-  #brandID-img {
-    background: url("https://www.fujifilm.com/products/digital_cameras/x/fujifilm_x_pro2/sample_images/img/index/ff_x_pro2_001.JPG");
-    background-size: 200%;
-    background-repeat: no-repeat;
-    opacity: 20%;
-  }  */
 
 
 /*-------Contact Section------*/
@@ -971,6 +947,272 @@ nav a:hover {
   body {
     background: #0b0d10;
   }
+    
+    
+
+
+nav a {
+  font-size: 1.5rem;
+}
+
+
+
+
+
+/*First section---------*/
+
+
+#cover h1 {
+  font-size: 6em;
+
+}
+
+
+#ask-us-btn {
+  font-size: 2rem;
+}
+
+#ask-us-btn:hover {
+  background-position: left bottom;
+  color: #0b0d10;
+
+}
+
+/*About Us Section----------------*/
+
+
+
+
+#aboutUsSec-container h2 {
+  font-size: 4rem;
+  text-align: center;
+  line-height: 110%;
+}
+
+#aboutUsSec-container p {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 10%;
+  margin-bottom: 2.5rem;
+  display: block;
+
+}
+
+#aboutUs-pSec {
+  left: 0;
+  width: 100%;
+  display: block;
+
+}
+
+#aboutUsBtn a {
+  font-size: 1.5rem;
+
+}
+
+  #aboutUsBtn a:hover {
+    background-position: left bottom;
+    color: white;
+    cursor: pointer;
+  }
+
+  #laptop-img {
+    width: 80%;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 5rem;
+
+  }
+
+  #laptop-img:hover {
+    width: 90%;
+    opacity: 85%;
+  }
+
+
+
+/*Services----------------*/
+  
+
+  #servicesSec h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  #fourSContainer {
+
+
+  }
+
+  .serviceBox {
+
+  }
+
+
+  .serviceBox h6 {
+    font-size: 1.5em;
+
+
+  }
+
+
+
+/*-------Contact Section------*/
+
+
+
+#contact-container h2 {
+  font-size: 3rem;
+
+}
+
+    
+#contact-container form {
+  padding-bottom: 5%;
+}
+
+.formInput {
+  font-size: 1.5rem;
+}
+
+#contact-container textarea {
+  height: 17rem;
+  min-height: 150px;
+}
+
+#formSubmit {
+
+  font-size: 1.5em;
+
+}
+
+
+    /*Client Logo Section----------------*/
+
+
+
+    #ajlogo {
+     width: 50%;
+     margin: 0 auto;
+     display: block;
+     margin-bottom: 2.5rem;
+     opacity: 60%;
+    }
+
+    #esqlogo {
+      width: 50%;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 2.5rem;
+      opacity: 60%;
+
+    }
+
+    #tubologo {
+      width: 25%;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 2.5rem;
+      opacity: 60%;
+
+    }
+
+    #ktchnlogo {
+      width: 40%;
+      margin: 0 auto;
+      display: block;
+      opacity: 60%;
+
+    }
+
+
+
+  #footerDetails {
+    font-size: 1.5rem;
+
+  }
+
+/* Services Page -----------------------------------------------------------------------------------------------------------------------*/
+
+.page-banner {
+    padding: 30% 0 15% 0;
+
+    
+}
+
+
+.page-heading {
+  font-size: 5rem;
+  display: block;
+  color: #0b0d10;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+
+
+.page-sub-headings {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.page-paragraph {
+    font-size: 1.5rem;
+    text-align: justify;
+    text-align-last: center;
+}
+
+/*About Us--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+    .about-section-container .page-paragraph {
+    margin-bottom: 15%;
+    }
+
+.quote-slides {
+
+    font-size: 1.5rem;
+}
+
+.quote-slides p {
+    font-weight: bold;
+}
+
+.previous-q, .next-q {
+    padding: 5%;
+    font-size: 4rem;
+ 
+}
+
+
+.address-section ul {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+/*Work--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.work-img-box figcaption {
+    font-size: 1.5rem;
+}
+.work-img-box img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+
+}
+
+#work-tubo-logo {
+    width: 60%;
+}
+ 
+
+
+
+    
 }
 
 /* DESKTOP STYLES */
@@ -1028,7 +1270,7 @@ nav a:hover {
     height: auto;
     font-size: 1.05rem;
     transition: all ease 1s;
-    width: 65%;
+    width: 55%;
     float: right;
   }
 
@@ -1064,7 +1306,7 @@ nav a:hover {
     text-decoration: none;
     padding: 0.65vw 1vw;
     width: auto;
-
+    font-size: 1.25rem;
   }
 
   nav a:hover {
@@ -1158,6 +1400,8 @@ nav a:hover {
     margin-bottom: 2.5rem;
     line-height: 100%;
     display: block;
+    text-align: left;
+
   }
 
   #aboutUsSec-container p {
@@ -1165,6 +1409,7 @@ nav a:hover {
     font-size: 1.4rem;
     margin-top: auto;
     margin-bottom: 2.5rem;
+    text-align: left;
 
   }
 
