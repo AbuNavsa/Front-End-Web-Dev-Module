@@ -837,6 +837,44 @@ nav a:hover {
 }
 
 
+/*Work--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.project-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.project-tabs button {
+    width: 32%;
+    padding: 2.5rem 0;
+    font-family: "Century Gothic";
+    font-size: 1rem;
+    background-color: #0b0d10;
+    color:white;
+    border: none;
+    border-bottom: ;
+    margin: 1rem 0;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: #fffb05;
+    -webkit-box-shadow: 0px 7px 12px 2px rgba(115,115,115,1);
+    -moz-box-shadow: 0px 7px 12px 2px rgba(115,115,115,1);
+    box-shadow: 0px 7px 12px 2px rgba(115,115,115,1);
+    cursor: pointer;
+}
+
+
+
+
+#work-banner {
+    background: url("../Resources/workbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+
 
 /*Footer section----------------------*/
 
