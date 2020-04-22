@@ -822,6 +822,14 @@ nav a:hover {
     padding: 1rem;
     font-size: 3rem;
     user-select: none;
+    opacity: 100%;
+    transition: opacity ease 0.4s;
+}
+
+.previous-q:hover, .next-q:hover {
+    opacity: 30%;
+
+
 }
 
 .next-q {
@@ -1505,10 +1513,7 @@ nav a:hover {
   
 }
 
-  .page-slide-buttons a:hover {
 
-      
-  }
 
 #getintouch-services {
     margin-bottom: 1rem;
@@ -1516,6 +1521,73 @@ nav a:hover {
     justify-content: center;
 }
     
+    
+    /*About Us--------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.about-section-container {
+
+    
+}
+
+.about-section-container:nth-child(even) {
+    background-color: white;
+}
+    
+
+.about-section-inner {
+    width: 60%;
+
+}
+
+.about-section-container img {
+    border-bottom: solid #dedede 2px;
+    padding-bottom: 4rem;
+}
+
+.about-images {
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+#about-banner {
+    background-position: center;
+}
+
+#review-heading {
+    color: ##fffb05;
+    
+}
+
+
+
+.quoteslide-container {
+    background: #e3e3e3;
+    position: relative;
+}
+
+.quote-slides {
+    padding: 4%;
+    width: 60%;
+
+    font-size: 1.4rem;
+}
+
+.quote-slides q {
+    font-style: italic;
+}
+
+.quote-slides p {
+    font-weight: bold;
+}
+
+.previous-q, .next-q {
+    padding: 3rem 15%;
+
+}
+
+
 
 
   /*Footer section----------------------*/
