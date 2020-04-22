@@ -129,8 +129,3 @@ prevQuote.addEventListener('click', function (event) {
 
 
 
-
-
-
-
-

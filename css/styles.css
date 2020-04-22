@@ -196,13 +196,13 @@ nav a:hover {
 #ask-us-btn:hover {
   background-position: left bottom;
   color: #0b0d10;
-  cursor: pointer;
 
 }
 
-#ask-us-btn a {
+#ask-us-btn p {
   text-decoration: none;
   color: white;
+  margin: 0;
 
 }
 
@@ -365,7 +365,6 @@ nav a:hover {
     border-width: 10px;
     border-color: #fffb05;
     margin: 7% 0;
-    cursor: pointer;
     -webkit-box-shadow: 0px 9px 20px -3px rgba(145,145,145,0.91);
     -moz-box-shadow: 0px 9px 20px -3px rgba(145,145,145,0.91);
     box-shadow: 0px 9px 20px -3px rgba(145,145,145,0.91);
@@ -841,13 +840,13 @@ nav a:hover {
 
 .project-tabs {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 auto;
 }
 
 .project-tabs button {
-    width: 32%;
-    padding: 2.5rem 0;
+    width: 30%;
+    padding: 1.5rem 0;
     font-family: "Century Gothic";
     font-size: 1rem;
     background-color: #0b0d10;
@@ -864,6 +863,10 @@ nav a:hover {
     cursor: pointer;
 }
 
+.tab-content .page-paragraph{
+    text-align: justify;
+    word-spacing: -1.5px;
+}
 
 
 
@@ -872,6 +875,38 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+}
+
+.work-images {
+    display: block;
+    
+}
+
+.work-img-box {
+    margin: 0 auto;
+    
+}
+
+
+.work-img-box img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+
+}
+
+#work-tubo-logo {
+    width: 60%;
+}
+ 
+.work-img-box figcaption {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1rem;
+
+
 }
 
 
@@ -1070,20 +1105,22 @@ nav a:hover {
     min-width: auto;
     padding: 0.75% 1.2%;
     white-space: wrap;
+    display: flex;
 
   }
 
 
-  #ask-us-btn a {
+  #ask-us-btn p {
     font-size: 1.5rem;
   }
 
   #ask-us-btn img {
     width: 1.35rem;
+    height: 0.75rem;
     margin-left: 2rem;
     right: auto;
     top: 0;
-    transform: translateY(0);
+    transform: translateY(65%);
     position: relative;
     display: inline-block;
   }
@@ -1608,6 +1645,63 @@ nav a:hover {
     padding: 3rem 15%;
 
 }
+    
+    
+/*Work--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.tab-content .page-paragraph {
+    text-align: justify;
+    word-spacing: normal;
+}
+    
+.tab-content {
+    border-bottom: solid #dedede 2px;
+    padding-bottom: 4rem;
+}
+    
+.tab-content:last-child {
+    border-bottom: none;
+}
+
+
+
+
+.work-images {
+    display: flex;
+    align-items: center;
+}
+
+.work-img-box {
+    margin: 0 auto;
+    width: 50%;
+    display: inline-block;
+}
+
+
+.work-img-box img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+
+}
+
+#work-tubo-logo {
+    width: 60%;
+}
+ 
+.work-img-box figcaption {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1rem;
+
+
+}
+
 
 
 
