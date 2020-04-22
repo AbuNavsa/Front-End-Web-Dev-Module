@@ -835,6 +835,20 @@ nav a:hover {
     right: 0;
 }
 
+.address-section ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    color: #0b0d10;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.address-section span {
+    font-weight: bold;
+}
+
+
 
 /*Work--------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -1600,10 +1614,6 @@ nav a:hover {
     /*About Us--------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-.about-section-container {
-
-    
-}
 
 .about-section-container:nth-child(even) {
     background-color: white;
@@ -1644,6 +1654,33 @@ nav a:hover {
 .previous-q, .next-q {
     padding: 3rem 15%;
 
+}
+    
+.address-section ul {
+    padding: 2rem 0;
+    font-size: 1.4rem;
+}
+    
+.address-section li {
+  display: inline-block;
+     
+    }
+    
+.address-section li:after {
+  content: ' ● ';
+}
+    
+.address-section li:first-child:after  {
+  content: none;
+}
+    
+.address-section li:last-child:after  {
+  content: none;
+}
+    
+    
+.address-section span {
+    font-weight: bold;
 }
     
     
