@@ -43,7 +43,7 @@ header {
   list-style-type: none;
   font-size: 1.25rem;
   color: white;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   text-align: center;
   transition: all ease 1s;
 }
@@ -54,7 +54,7 @@ header {
   list-style-type: none;
   font-size: 1.25rem;
   color: white;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   text-align: center;
   transition: all ease 1s;
 }
@@ -71,7 +71,7 @@ nav li {}
 
 nav a {
   color: white;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   text-decoration: none;
   display: block;
   margin: 1rem auto;
@@ -141,7 +141,7 @@ nav a:hover {
   font-size: 3.5em;
   color: white;
   display: block;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   position: relative;
   margin: 0 auto;
   margin-top: 32.5vh;
@@ -170,7 +170,7 @@ nav a:hover {
   border: solid;
   border-color: white;
   border-width: 2px;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   font-weight: normal;
   margin: 0 auto;
   top: 60vh;
@@ -223,7 +223,7 @@ nav a:hover {
   display: block;
   width: 70%;
   margin: 0 auto;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   color: #0b0d10;
 }
 
@@ -335,7 +335,7 @@ nav a:hover {
   padding: 2rem 0;
   margin: 0 auto;
   margin-bottom: 2%;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   font-size: 1.8em;
 }
 
@@ -401,7 +401,7 @@ nav a:hover {
   color: white;
   padding: 0.7em;
   font-size: 1.34em;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   border: solid;
   border-width: 3.5px;
   position: absolute;
@@ -441,7 +441,7 @@ nav a:hover {
 #contact-container h2 {
   font-size: 2.5rem;
   margin: 0;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   color: white;
   float: left;
 }
@@ -450,7 +450,7 @@ nav a:hover {
   display: none;
   justify-content: space-between;
   align-items: center;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   text-decoration: none;
   border: solid;
   border-color: #fffb05;
@@ -504,7 +504,7 @@ nav a:hover {
   padding: 4%;
   font-size: 1.25rem;
   font-weight: normal;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   min-width: 100%;
   min-height: 1.2em;
   background-color: rgba(255, 255, 255, 0.2);
@@ -524,7 +524,7 @@ nav a:hover {
   padding: 3%;
   font-size: 1.4em;
   font-weight: normal;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   font-weight: bolder;
   min-height: 1.2em;
   background-color: #fffb05;
@@ -592,7 +592,7 @@ nav a:hover {
 .page-banner {
   display: block;
   width: 100%;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   padding: 35% 0 15% 0;
 }
 
@@ -608,7 +608,7 @@ nav a:hover {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   background-color: white;
 }
 
@@ -806,7 +806,7 @@ nav a:hover {
 .project-tabs button {
   width: 30%;
   padding: 1.5rem 0;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   font-size: 1rem;
   background-color: #0b0d10;
   color: white;
@@ -881,7 +881,7 @@ footer {
   font-size: 1.15rem;
   text-align: center;
   font-weight: normal;
-  font-family: "Century Gothic";
+  font-family: "Century Gothic", Arial, sans-serif;
   color: white;
   align-items: center;
 }
@@ -1130,7 +1130,7 @@ footer {
   }
   nav a {
     color: white;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", Arial, sans-serif;
     text-decoration: none;
     padding: 0.65vw 1vw;
     width: auto;
@@ -1302,7 +1302,7 @@ footer {
     color: white;
     padding: 0.7em;
     font-size: 1.34em;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", Arial, sans-serif;
     border: solid;
     border-width: 3px;
     position: absolute;
@@ -1336,7 +1336,7 @@ footer {
   #contact-container h2 {
     font-size: 2.5rem;
     margin: 0;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", Arial, sans-serif;
     color: white;
     float: left;
   }
@@ -1344,7 +1344,7 @@ footer {
     display: none;
     justify-content: space-between;
     align-items: center;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", Arial, sans-serif;
     text-decoration: none;
     border: solid;
     border-color: #fffb05;
@@ -1392,7 +1392,7 @@ footer {
     padding: 4%;
     font-size: 1.25rem;
     font-weight: normal;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", Arial, sans-serif;
     min-width: 100%;
     min-height: 1.2em;
     background-color: rgba(255, 255, 255, 0.2);
@@ -1410,7 +1410,7 @@ footer {
     padding: 3%;
     font-size: 1.4em;
     font-weight: normal;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", Arial, sans-serif;
     font-weight: bolder;
     min-height: 1.2em;
     background-color: #fffb05;
